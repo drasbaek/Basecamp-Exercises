@@ -102,18 +102,15 @@ export default {
 
 <style scoped>
 .filters-bar {
-  background: #f8fafc;
+  background: #ffffff;
   border-bottom: 1px solid #e2e8f0;
-  padding: 0.75rem 0;
+  padding: 0.75rem 2rem;
   position: sticky;
-  top: 70px;
-  z-index: 90;
+  top: 0;
+  z-index: 100;
 }
 
 .filters-container {
-  max-width: 1600px;
-  margin: 0 auto;
-  padding: 0 2rem;
   display: flex;
   align-items: center;
   gap: 1rem;
